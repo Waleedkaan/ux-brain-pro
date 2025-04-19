@@ -1,5 +1,4 @@
 ### app.py
-```python
 import streamlit as st
 from modules import design_thinking, heuristic_scanner, accessibility_auditor, feedback_generator
 
