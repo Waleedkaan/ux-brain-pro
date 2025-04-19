@@ -1,0 +1,8 @@
+streamlit
+transformers
+torch
+pytesseract
+opencv-python
+spacy
+scikit-learn
+Pillow
