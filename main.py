@@ -1,11 +1,10 @@
-### app.py
 import streamlit as st
 from modules import design_thinking, heuristic_scanner, accessibility_auditor, feedback_generator
 
 st.set_page_config(page_title="UX Brain Pro", layout="wide")
-st.title("UX Brain Pro - AI UX Assistant")
+st.title("UX Brain Pro")
 
-page = st.sidebar.radio("Select Module", [
+page = st.sidebar.selectbox("Select Module", [
     "Design Thinking Wizard",
     "Heuristic Evaluation Scanner",
     "Accessibility Auditor",
